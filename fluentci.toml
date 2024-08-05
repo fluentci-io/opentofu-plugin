@@ -1,0 +1,11 @@
+[package]
+name = "opentofu"
+version = "0.1.0"
+description = "CI/CD Plugin for OpenTofu"
+license = "MIT"
+keywords = [
+  "opentofu"
+]
+authors = [
+  "Tsiry Sandratraina <tsiry.sndr@fluentci.io>"
+]
