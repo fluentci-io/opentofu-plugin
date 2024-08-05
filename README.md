@@ -54,9 +54,8 @@ Github Actions:
     wasm: true
     plugin: opentofu
     args: |
-      setup
-- name: Show opentofu version
-  run: |
-    type tofu
-    tofu version
+      init
+      validate
+      plan
+      apply -auto-approve
 ```
